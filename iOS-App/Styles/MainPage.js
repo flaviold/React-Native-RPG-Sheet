@@ -5,10 +5,11 @@ import React, {
 } from 'react-native';
 
 var sHeight = Dimensions.get('window').height
+var sWidth = Dimensions.get('window').width
 
 var styles = StyleSheet.create({
   name: {
-    width: 280
+    width: sWidth*0.6
   },
   lvl: {
     width: 40
